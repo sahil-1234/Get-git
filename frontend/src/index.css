@@ -10,6 +10,7 @@ body {
 	background-attachment: fixed;
 }
 
+/* dark mode looking scrollbar */
 ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -28,8 +29,8 @@ body {
 }
 
 @layer components {
-	.bg-glass{
+	.bg-glass {
 		@apply bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 
-		hover:bg-gray-600/10 border-gray-800 text-white
+		hover:bg-gray-600/10 border border-gray-800 text-white;
 	}
 }

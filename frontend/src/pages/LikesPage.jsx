@@ -34,10 +34,10 @@ const LikesPage = () => {
 								alt='Jese image'
 							/>
 							<div className='ps-3'>
-								<div className='text-base font-semibold'>dasdas</div>
+								<div className='text-base font-semibold'>Boogiee</div>
 							</div>
 						</th>
-						<td className='px-6 py-4'>das</td>
+						<td className='px-6 py-4'>Radss</td>
 						<td className='px-6 py-4'>
 							<div className='flex items-center'>
 								<FaHeart size={22} className='text-red-500 mx-2' />
@@ -51,4 +51,4 @@ const LikesPage = () => {
 	);
 };
 
-export default LikesPage
+export default LikesPage;

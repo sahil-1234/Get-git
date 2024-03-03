@@ -12,24 +12,24 @@ const Repo = () => {
 			</span>
 			<div className='flex gap-2 items-center flex-wrap'>
 				<a
-					href={"https://github.com/sahil-1234/Sahil-AnimeStick"}
+					href={"https://github.com/burakorkmez/mern-chat-app"}
 					target='_blank'
 					rel='noreferrer'
 					className='flex items-center gap-2 text-lg font-semibold'
 				>
-					AnimeStick
+					mern-chat-app
 				</a>
 				<span
 					className='bg-yellow-100 text-yellow-800 text-xs font-medium px-2.5
 					py-0.5 rounded-full flex items-center gap-1'
 				>
-					<FaRegStar /> 1
+					<FaRegStar /> 167
 				</span>
 				<span
 					className='bg-purple-100 text-purple-800 text-xs font-medium
 					 px-2.5 py-0.5 rounded-full flex items-center gap-1'
 				>
-					<FaCodeFork /> 1
+					<FaCodeFork /> 25
 				</span>
 				<span
 					className='cursor-pointer bg-green-100 text-green-800 text-xs
@@ -43,9 +43,9 @@ const Repo = () => {
 				className='block my-1 text-xs font-normal leading-none
 			 text-gray-400'
 			>
-				Released on Nov 1, 2023
+				Released on Jan 1, 2021
 			</time>
-			<p className='mb-4 text-base font-normal text-gray-500'>Responsive Dashbord</p>
+			<p className='mb-4 text-base font-normal text-gray-500'>Real Time Chat App | MERN && Socket.io && JWT</p>
 			<img src={"/javascript.svg"} alt='Programming language icon' className='h-8' />
 		</li>
 	);

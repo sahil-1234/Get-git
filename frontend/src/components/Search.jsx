@@ -14,7 +14,7 @@ const Search = () => {
 					type='search'
 					id='default-search'
 					className='block w-full p-4 ps-10 text-sm rounded-lg bg-glass focus:ring-blue-500 focus:border-blue-500 bg-transparent focus:bg-transparent '
-					placeholder='i.e. sahil-1234'
+					placeholder='i.e. sahil'
 					required
 				/>
 				<button

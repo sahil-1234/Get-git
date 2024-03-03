@@ -6,18 +6,18 @@ import { FaEye } from "react-icons/fa";
 
 const ProfileInfo = () => {
 	const userProfile = {
-		avatar_url: "https://avatars.githubusercontent.com/u/96813045?s=96&v=4",
-		bio: "It's Me",
-		email: "sahil.srivastava0170@gmail.com",
-		followers: 1,
-		following: 1,
-		html_url: "https://github.com/sahil-1234",
+		avatar_url: "https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745",
+		bio: "👨🏻‍💻👨🏻‍💻👨🏻‍💻",
+		email: "johndoe@gmail.com",
+		followers: 100,
+		following: 200,
+		html_url: "https://github.com/burakorkmez",
 		location: "Somewhere, Earth",
-		name: "Sahil Srivastav",
-		public_gists: 3,
-		public_repos: 5,
-		twitter_username: "@SahilSriva39209",
-		login: "sahil-1234",
+		name: "John Doe",
+		public_gists: 100,
+		public_repos: 100,
+		twitter_username: "johndoe",
+		login: "johndoe",
 	};
 
 	return (
@@ -74,7 +74,7 @@ const ProfileInfo = () => {
 				{/* Member Since Date */}
 				<div className='my-2'>
 					<p className='text-gray-600 font-bold text-sm'>Member since</p>
-					<p className=''>01 Nov, 2023</p>
+					<p className=''>21 Sep, 2023</p>
 				</div>
 
 				{/* Email Address */}
@@ -128,4 +128,5 @@ const ProfileInfo = () => {
 		</div>
 	);
 };
-export default ProfileInfo
+
+export default ProfileInfo;
