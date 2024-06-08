@@ -14,7 +14,7 @@ const HomePage = () => {
 
 	const [sortType, setSortType] = useState("recent");
 
-	const getUserProfileAndRepos = useCallback(async (username = "burakorkmez") => {
+	const getUserProfileAndRepos = useCallback(async (username = "sahil-1234") => {
 		setLoading(true);
 		try {
 			const res = await fetch(`/api/users/profile/${username}`);
