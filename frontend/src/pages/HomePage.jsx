@@ -54,7 +54,7 @@ const HomePage = () => {
 
 	const onSort = (sortType) => {
 		if (sortType === "recent") {
-			repos.sort((a, b) => new Date(b.created_at) - new Date(a.created_at)); //descending, recent first
+			repos.sort((a, b) => new Date(b.created_at) - new Date(a.created_at)); 
 		} else if (sortType === "stars") {
 			repos.sort((a, b) => b.stargazers_count - a.stargazers_count); //descending, most stars first
 		} else if (sortType === "forks") {
