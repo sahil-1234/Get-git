@@ -58,7 +58,7 @@ const HomePage = () => {
 		} else if (sortType === "stars") {
 			repos.sort((a, b) => b.stargazers_count - a.stargazers_count); //descending, most stars first
 		} else if (sortType === "forks") {
-			repos.sort((a, b) => b.forks_count - a.forks_count); //descending, most forks first
+			repos.sort((a, b) => b.forks_count - a.forks_count); 
 		}
 		setSortType(sortType);
 		setRepos([...repos]);
